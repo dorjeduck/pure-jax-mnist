@@ -76,18 +76,23 @@ python main.py --model_type CNN --num_epochs 50
 
 Below are the training plots for both the MLP and CNN models. These plots display the training loss and test accuracy across epochs, helping to visualize the model’s learning progress and compare the performance of the two architectures.
 
-### Performance Comparison
-
-- **MLP**: The MLP model is faster to train but generally results in lower accuracy compared to the CNN.
-- **CNN**: While the CNN model takes **approximately 15 times longer** to train due to the complexity of convolutional operations, it achieves **higher test accuracy**.
 
 ### MLP Model
 
 ![Plot for MLP with 050 epochs](plots/MLP_epochs050.png)
 
-CNN Model
+### CNN Model
 
 ![Plot for CNN with 050 epochs](plots/CNN_epochs050.png)
+
+### Performance Comparison
+
+- **MLP**: The MLP model is faster to train but generally results in lower accuracy compared to the CNN.
+- **CNN**: While the CNN model takes approximately 15 times longer to train due to the complexity of convolutional operations, it achieves higher test accuracy.
+
+## See Also
+
+If you're looking for an excellent library for building neural networks in JAX, I highly recommend checking out [Equinox](https://github.com/patrick-kidger/equinox). It’s a powerful and flexible library with `PyTrees` at the center of its design.
 
 ## License
 
