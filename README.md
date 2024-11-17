@@ -24,7 +24,7 @@ The implementation is inspired by the example of working with PyTrees in the [of
 1. Clone the repository:
 
 ```bash
-git clone <https://github.com/your-username/pure-jax-mnist.git>
+git clone https://github.com/your-username/pure-jax-mnist.git
 cd pure-jax-mnist
 ```
 
