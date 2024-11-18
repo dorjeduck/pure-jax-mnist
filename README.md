@@ -79,11 +79,11 @@ Below are the training plots for both the MLP and CNN models. These plots displa
 
 ### MLP Model
 
-![Plot for MLP with 050 epochs](plots/MLP_epochs050.png)
+![Plot for MLP with 100 epochs](plots/MLP_epochs100.png)
 
 ### CNN Model
 
-![Plot for CNN with 050 epochs](plots/CNN_epochs050.png)
+![Plot for CNN with 100 epochs](plots/CNN_epochs100.png)
 
 ### Performance Comparison
 
