@@ -96,7 +96,9 @@ While this project is implemented from scratch for the sake of learning, one of 
 
 - [Optax](https://github.com/google-deepmind/optax): A powerful and flexible library for optimization in JAX, providing a suite of optimizers that work seamlessly with JAX to help you efficiently train your models.
 
-- [Equinox](https://github.com/patrick-kidger/equinox): A great choice for building neural networks in JAX, with `PyTrees` at the center of its design. An implementation of a Convolutional Neural Network on MNIST using Equinox can be found here: [Equinox MNIST example](https://docs.kidger.site/equinox/examples/mnist/).
+- [Equinox](https://github.com/patrick-kidger/equinox): A great choice for building neural networks in JAX, with `PyTrees` at the center of its design. 
+
+An implementation of a Convolutional Neural Network on MNIST using Optax and Equinox can be found here: [Equinox MNIST example](https://docs.kidger.site/equinox/examples/mnist/).
 
 ## License
 
