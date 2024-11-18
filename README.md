@@ -1,6 +1,6 @@
 # pure-jax-mnist
 
-A minimal, from-scratch implementation of MNIST classification using JAX, with no external dependencies beyond data loading. This project is a personal learning exercise focused on building neural networks in JAX from scratch, demonstrating how to implement and train simple models, including a Multi-Layer Perceptron (MLP) and a Convolutional Neural Network (CNN), entirely in JAX.
+A minimal, from-scratch implementation of MNIST classification using JAX, without relying on high-level neural network libraries aside from data loading. This project is a personal learning exercise focused on building neural networks in JAX, demonstrating how to implement and train simple models, including a Multi-Layer Perceptron (MLP) and a Convolutional Neural Network (CNN).
 
 The implementation is inspired by the example of working with PyTrees in the [official JAX documentation](https://jax.readthedocs.io/en/latest/working-with-pytrees.html#example-of-jax-tree-map-with-ml-model-parameters).
 
