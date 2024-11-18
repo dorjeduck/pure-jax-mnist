@@ -88,11 +88,15 @@ Below are the training plots for both the MLP and CNN models. These plots displa
 ### Performance Comparison
 
 - **MLP**: The MLP model is faster to train but generally results in lower accuracy compared to the CNN.
-- **CNN**: While the CNN model takes approximately 15 times longer to train due to the complexity of convolutional operations, it achieves higher test accuracy.
+- **CNN**: While the CNN model takes significantly longer to train due to the complexity of convolutional operations, it achieves higher test accuracy.
 
-## See Also
+## Recommended Libraries
 
-If you're looking for an excellent library for building neural networks in JAX, I highly recommend checking out [Equinox](https://github.com/patrick-kidger/equinox). It’s a powerful and flexible library with `PyTrees` at the center of its design.
+While this project is implemented from scratch for the sake of learning, one of the strengths of JAX lies in its interoperability with other libraries. For those looking to explore more advanced options in JAX, here are a couple of libraries worth checking out:
+
+- [Optax](https://github.com/google-deepmind/optax): A powerful and flexible library for optimization in JAX, providing a suite of optimizers that work seamlessly with JAX to help you efficiently train your models.
+
+- [Equinox](https://github.com/patrick-kidger/equinox): A great choice for building neural networks in JAX, with `PyTrees` at the center of its design, making it easier to scale and extend your models.
 
 ## License
 
